@@ -29,5 +29,5 @@ jobs:
       - name: Install surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ B:\PIAIC\Junaidmobile\mobileshop\ mobileshop1.surge.sh --token ${{secrets.MOBILE_SHOP}}
+        run: surge ./ mobileshop2.surge.sh --token ${{secrets.MOBILE_SHOP}}
         
